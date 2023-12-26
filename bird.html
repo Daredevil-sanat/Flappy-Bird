@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy-Bird</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+        margin:0px;
+      }
+
+      #board {
+        border: 2px solid black;
+        background:url('./Images/background.png');
+        background-size: cover;
+      }
+
+      #newGameButton {
+  display: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+    </style>
+  </head>
+  <body>
+    <button id="newGameButton">New Game</button>
+    <canvas id="board"></canvas>
+
+    <script src="FlappyBird.js"></script>
+  </body>
+</html>
